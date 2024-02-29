@@ -48,7 +48,6 @@ ggplot(Tabla, aes(feed, Media))+
   theme_classic()
 ```
 
-
 **Al adquirir el curso, dominarás la aplicación adecuada de la estadística descriptiva, la creación de gráficos básicos y su interpretación.**
 
 ![HN Biology Investigation Academy](HN%20Cursos%20publicidad/HN%20Biology%20Inv%20large.jpg)

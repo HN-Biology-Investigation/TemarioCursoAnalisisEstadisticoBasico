@@ -74,6 +74,6 @@ tabla2 <- data.frame(
 )
 ```
 
-# Al adquirir el curso, serás capaz de crear, guardar, exportar e importar tablas, entre otras habilidades.
+**Al adquirir el curso, serás capaz de crear, guardar, exportar e importar tablas, entre otras habilidades.**
 
 ![HN Biology Investigation Academy](HN%20Cursos%20publicidad/HN%20Biology%20Inv%20large.jpg)
