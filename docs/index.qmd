@@ -53,13 +53,13 @@ En este curso, exploraremos los conceptos clave de la estadística de una manera
 
 [Introducción a R y RStudio:](Introduccion.html).
 
-[Comandos básico, uso de scripts y Estadística descriptiva]
+[Comandos básico, uso de scripts y Estadística descriptiva](EstadisticaDescriptiva.html)
 
-[Pruebas de normalidad, Pruebas de hipótesis (T-Student)]
+[Pruebas de normalidad, Pruebas de hipótesis (T-Student)](Hipotesis.html)
 
-[Pruebas de homocedasticidad y Análisis de varianza (ANOVA)]
+[Pruebas de homocedasticidad y Análisis de varianza (ANOVA)](Anova.html)
 
-[Kuskall Wallis y Análisis de frecuencias (Chi-cuadrado)]
+[Kuskall Wallis y Análisis de frecuencias (Chi-cuadrado)](ChiCuadrado.htlm)
 
 [Pruebas de Correlación Pearson y Spearman]
 
