@@ -1,0 +1,34 @@
+---
+title: "ChiCuadrado"
+author: "David Murillo"
+format: html
+editor: visual
+---
+
+La prueba de Chi-cuadrado es una técnica estadística utilizada para determinar si existe una relación significativa entre dos variables categóricas. Se utiliza principalmente para evaluar la independencia entre variables, es decir, si el valor de una variable categórica está relacionado de alguna manera con el valor de otra variable categórica.
+
+La prueba de Chi-cuadrado compara la distribución observada de los datos con una distribución esperada bajo la hipótesis nula de independencia entre las variables. Si la diferencia entre la distribución observada y esperada es lo suficientemente grande, se rechaza la hipótesis nula y se concluye que hay una relación significativa entre las variables.
+
+> Ejemplo: Supongamos que queremos determinar si existe una relación significativa entre el género (masculino o femenino) y la preferencia por el té o el café. Tenemos los siguientes datos observados:
+
+```{r, echo=FALSE}
+# Crear una matriz con los datos observados
+datos <- matrix(c(30, 20, 25, 35), nrow = 2, byrow = TRUE)
+```
+
+
+```{r, echo=FALSE}
+# Realizar la prueba de Chi-cuadrado
+datos
+resultado <- chisq.test(datos)
+```
+
+
+```{r}
+# Mostrar los resultados
+print(resultado)
+
+```
+> Si el valor p es menor que el nivel de significancia elegido (generalmente 0.05), se rechaza la hipótesis nula y se concluye que hay una relación significativa entre el género y la preferencia por el té o el café.
+
+![HN Biology Investigation Academy](HN Cursos publicidad/HN Biology Inv large.jpg)
