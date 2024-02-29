@@ -1,0 +1,54 @@
+---
+title: "Estadística Descriptiva"
+author: "David Murillo"
+format: html
+editor: visual
+---
+
+En esta clase, explorarás la Estadística Descriptiva, abordando el cálculo de medidas centrales como la media, mediana, y moda, así como la desviación estándar, error estándar y la construcción de intervalos de confianza. Además, aprenderás a elaborar gráficos básicos para visualizar y comprender mejor tus datos.
+
+Calculo de media
+
+```{r}
+
+data("cars")
+
+mean(cars$speed)
+```
+
+> En este caso la media es de 15.4
+
+**Para explorar otros parámetros estadísticos y preparar la tabla previa a la creación de gráficos, es necesario aplicar comandos adicionales. En este ejemplo, te mostraremos cómo hacerlo.**
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+
+data("chickwts")
+
+library(tidyverse)
+
+Tabla <- chickwts %>% 
+  group_by(feed) %>% 
+  summarise(Media = mean(weight),
+            ds = sd(weight),
+            n = n()) %>% 
+  mutate(IC = 1.96 * ds/sqrt(n))
+
+Tabla
+```
+
+Grafico
+
+```{r, echo=FALSE}
+ggplot(Tabla, aes(feed, Media))+
+  geom_col(fill = "lightblue")+
+  geom_errorbar(aes(ymin= Media - IC,
+                    ymax= Media + IC))+
+  labs(title = "Diferencias entre el peso por tipo de alimentacion en pollos de crianza", y= "Peso", x= "Tipo de alimentacion",
+       caption = "Las barras indican los intervalos de confianza al 95%")+
+  theme_classic()
+```
+
+
+**Al adquirir el curso, dominarás la aplicación adecuada de la estadística descriptiva, la creación de gráficos básicos y su interpretación.**
+
+![HN Biology Investigation Academy](HN%20Cursos%20publicidad/HN%20Biology%20Inv%20large.jpg)
