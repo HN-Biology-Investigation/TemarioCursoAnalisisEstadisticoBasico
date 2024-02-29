@@ -1,0 +1,32 @@
+---
+title: "Temario Curso Estadistica nivel basico"
+author: "David Murillo"
+format: html
+editor: visual
+---
+
+¿Quieres adentrarte en el mundo de la estadística pero no sabes por dónde empezar? ¡Este curso es perfecto para ti! En nuestro programa de Estadística Básica, te introduciremos en los fundamentos esenciales de la estadística utilizando la plataforma R y RStudio.
+
+# Descripción del Curso:
+
+En este curso, exploraremos los conceptos clave de la estadística de una manera accesible y práctica, utilizando ejemplos del mundo real y actividades interactivas. Desde la comprensión de datos hasta la interpretación de resultados, te guiaremos a través de cada paso para que puedas desarrollar una base sólida en análisis estadístico.
+
+# Temas que Cubriremos:
+
+[Introducción a R y RStudio:](Introduccion.html).
+
+Exploración de datos: Visualización y resumen de datos utilizando gráficos y medidas descriptivas.
+Probabilidad: Conceptos básicos de probabilidad y distribuciones de probabilidad.
+Inferencia estadística: Pruebas de hipótesis, intervalos de confianza y análisis de varianza.
+Modelado estadístico: Introducción a modelos lineales y regresión.
+Práctica guiada: Aplicación de los conceptos aprendidos a casos prácticos utilizando conjuntos de datos reales.
+Proyecto final: Aplicación de todos los conocimientos adquiridos en un proyecto de análisis de datos completo.
+Metodología de Enseñanza:
+
+Nuestro enfoque educativo se basa en la práctica activa y el aprendizaje interactivo. A lo largo del curso, trabajarás en ejercicios prácticos y proyectos que te permitirán aplicar directamente lo que aprendas. Además, tendrás acceso a recursos complementarios y a un equipo de profesores dedicados que te brindarán apoyo individualizado.
+
+Requisitos Previos:
+
+No se requiere experiencia previa en estadística ni en programación en R. Este curso está diseñado para principiantes absolutos, pero también es adecuado para aquellos con conocimientos básicos que deseen consolidar sus habilidades.
+
+¡Únete a nosotros en este emocionante viaje hacia el dominio de la estadística utilizando R y RStudio! Conviértete en un analista de datos competente y potencia tu carrera profesional.
