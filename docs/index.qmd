@@ -1,5 +1,5 @@
 ---
-title: "Temario Curso Estadistica nivel basico"
+title: "Temario del Curso de Estadística Nivel Básico"
 author: "David Murillo"
 format: html
 editor: visual
@@ -61,7 +61,7 @@ En este curso, exploraremos los conceptos clave de la estadística de una manera
 
 [Kuskall Wallis y Análisis de frecuencias (Chi-cuadrado)](ChiCuadrado.htlm)
 
-[Pruebas de Correlación Pearson y Spearman]
+[Pruebas de Correlación Pearson y Spearman](Correlacion.htlm)
 
 
 Metodología de Enseñanza:
