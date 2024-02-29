@@ -59,9 +59,9 @@ En este curso, exploraremos los conceptos clave de la estadística de una manera
 
 [Pruebas de homocedasticidad y Análisis de varianza (ANOVA)](Anova.html)
 
-[Kuskall Wallis y Análisis de frecuencias (Chi-cuadrado)](ChiCuadrado.htlm)
+[Kuskall Wallis y Análisis de frecuencias (Chi-cuadrado)](ChiCuadrado.html)
 
-[Pruebas de Correlación Pearson y Spearman](Correlacion.htlm)
+[Pruebas de Correlación Pearson y Spearman](Correlacion.html)
 
 
 Metodología de Enseñanza:
