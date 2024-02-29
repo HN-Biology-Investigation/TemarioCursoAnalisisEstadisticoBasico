@@ -5,23 +5,77 @@ format: html
 editor: visual
 ---
 
-## Quarto
+# Introducción a R
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+En esta clase, aprenderás todo sobre el entorno de R y RStudio, desde cómo descargar e instalar los programas, hasta cómo utilizar la interfaz de RStudio, crear proyectos, así como el uso de scripts y comandos básicos.
 
-## Running Code
+### Instalacion de R y RStudio
 
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+Para descargar e instalar R utilice el siguiente enlace [R base](https://cran.r-project.org/bin/windows/base/)
 
-```{r}
-1 + 1
-```
+Para descargar e instalar RStudio utilice el siguiente enlace [RStudio](https://posit.co/download/rstudio-desktop/)
 
-You can add options to executable code like this
+- Operaciones Básicas
 
 ```{r}
-#| echo: false
-2 * 2
+# Suma
+resultado_suma <- 2 + 2
+
+# Resta
+resultado_resta <- 2 - 2
+
+# Multiplicación
+resultado_multiplicacion <- 2 * 2
+
+# División
+resultado_division <- 2 / 2
+
+# Potencia
+resultado_potencia <- 2^2
+
+# Raíz Cuadrada
+resultado_raiz_cuadrada <- sqrt(2)
+
+# Logaritmo
+resultado_logaritmo <- log(2)
+
+# Exponencial
+resultado_exponencial <- exp(2)
+
 ```
 
-The `echo: false` option disables the printing of code (only output is displayed).
+- Creación de Variable Numérica
+
+```{r}
+un_valor <- 5
+dos_o_mas <- c(1, 4, 7)
+```
+
+- Creación de Variable Categórica
+
+```{r}
+un_valor_cat <- "Opcion1"
+dos_o_mas_cat <- c("Opcion1", "Opcion2")
+```
+
+-  Crear Tablas
+
+```{r}
+tabla1 <- data.frame(
+  VariableA = "A",
+  VariableB = "B",
+  VariableC = 1
+)
+
+tabla2 <- data.frame(
+  VariableA = c("A", "B", "C", "C", "A"),
+  VariableB = c("Uno", "Tres", "Uno", "Dos", "Uno"),
+  VariableC = c(34, 21, 32, 23, 21)
+)
+```
+
+
+# Al adquirir el curso, serás capaz de crear, guardar, exportar e importar tablas, entre otras habilidades.
+
+
+![HN Biology Investigation Academy](HN Cursos publicidad/HN Biology Inv large.jpg)
