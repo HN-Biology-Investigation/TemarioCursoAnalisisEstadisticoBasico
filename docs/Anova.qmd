@@ -1,0 +1,62 @@
+---
+title: "Anova"
+author: "David Murillo"
+format: html
+editor: visual
+---
+
+El Análisis de Varianza, o ANOVA por sus siglas en inglés, es una técnica estadística utilizada para comparar las medias de tres o más grupos independientes. Se utiliza para determinar si existen diferencias significativas entre los grupos en términos de la variable de interés.
+
+El ANOVA evalúa la variabilidad de los datos dentro de cada grupo y compara esta variabilidad con la variabilidad entre los grupos. Si la variabilidad entre los grupos es significativamente mayor que la variabilidad dentro de los grupos, se concluye que hay diferencias significativas entre al menos dos de los grupos.
+
+> Ejemplo: Nos interesa determinar si el peso de los pollos de crianza se distribuye de manera normal.
+
+```{r}
+data("chickwts")
+
+hist(chickwts$weight)
+```
+
+Aplicaremos un ANOVA  como ejemplo
+
+```{r, echo=FALSE}
+
+summary(aov(weight ~ feed, data= chickwts))
+```
+
+> En este caso, los resultados proporcionan evidencia para afirmar que el peso de los pollos varía según el tipo de alimentación.
+
+Sin embargo, ¿hemos aplicado correctamente el ANOVA?, ¿Existen otras alternativas a considerar?
+
+**En nuestro curso, aprenderás todo lo necesario para abordar las incógnitas planteadas anteriormente.**
+
+Además, complementaremos los resultados con un gráfico apropiado.
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE, results='hide'}
+
+data("chickwts")
+
+library(tidyverse)
+
+Tabla <- chickwts %>% 
+  group_by(feed) %>% 
+  summarise(Media = mean(weight),
+            ds = sd(weight),
+            n = n()) %>% 
+  mutate(IC = 1.96 * ds/sqrt(n))
+
+Tabla
+```
+
+
+```{r, echo=FALSE}
+ggplot(Tabla, aes(feed, Media))+
+  geom_col(fill = "lightblue")+
+  geom_errorbar(aes(ymin= Media - IC,
+                    ymax= Media + IC))+
+  labs(title = "Diferencias entre el peso por tipo de alimentacion en pollos de crianza", y= "Peso", x= "Tipo de alimentacion",
+       caption = "Las barras indican los intervalos de confianza al 95%")+
+  theme_classic()
+```
+
+![HN Biology Investigation Academy](HN Cursos publicidad/HN Biology Inv large.jpg)
