@@ -15,7 +15,7 @@ Para descargar e instalar R utilice el siguiente enlace [R base](https://cran.r-
 
 Para descargar e instalar RStudio utilice el siguiente enlace [RStudio](https://posit.co/download/rstudio-desktop/)
 
-- Operaciones Básicas
+-   Operaciones Básicas
 
 ```{r}
 # Suma
@@ -44,21 +44,21 @@ resultado_exponencial <- exp(2)
 
 ```
 
-- Creación de Variable Numérica
+-   Creación de Variable Numérica
 
 ```{r}
 un_valor <- 5
 dos_o_mas <- c(1, 4, 7)
 ```
 
-- Creación de Variable Categórica
+-   Creación de Variable Categórica
 
 ```{r}
 un_valor_cat <- "Opcion1"
 dos_o_mas_cat <- c("Opcion1", "Opcion2")
 ```
 
--  Crear Tablas
+-   Crear Tablas
 
 ```{r}
 tabla1 <- data.frame(
@@ -74,8 +74,6 @@ tabla2 <- data.frame(
 )
 ```
 
-
 # Al adquirir el curso, serás capaz de crear, guardar, exportar e importar tablas, entre otras habilidades.
 
-
-![HN Biology Investigation Academy](HN Cursos publicidad/HN Biology Inv large.jpg)
+![HN Biology Investigation Academy](HN%20Cursos%20publicidad/HN%20Biology%20Inv%20large.jpg)
