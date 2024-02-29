@@ -5,7 +5,7 @@ format: html
 editor: visual
 ---
 
-<img src="HN Cursos publicidad/HN Biology Inv Circle.jpg" align="right" alt="" width="100" /> 
+[<img src="HN Cursos publicidad/HN Biology Inv Circle.jpg" align="right" alt="" width="100" />](https://www.hnbiology.org/) 
 
 ¿Quieres adentrarte en el mundo de la estadística pero no sabes por dónde empezar? ¡Este curso es perfecto para ti! En nuestro programa de Estadística Básica, te introduciremos en los fundamentos esenciales de la estadística utilizando la plataforma R y RStudio.
 
@@ -30,7 +30,11 @@ editor: visual
 
 -  Pago para hondureños por Banco Atlántida, BANPAÍS y BAC Honduras: Por favor, solicita la información pertinente.
 
--  Otras formas de pago: MoneyGram.
+-  Otras formas de pago:
+
+[MoneyGram](https://www.moneygram.com/mgo/us/es/send/como-enviar-dinero/enviar-en-linea/).
+
+[DineroExpress](https://www.dineroexpress.com/WebPortalDexDigital/)
  
 # Modalidades del Curso:
 
