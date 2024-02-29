@@ -22,7 +22,7 @@ editor: visual
 
 -  Inversión en USD (Dólares estadounidenses): 30 USD.
 
--  Inversión para hondureños: 700 Lempiras hondureñas.
+-  Inversión para hondureños: 700 Lempiras hondureños.
 
 # Métodos de Pago:
 
@@ -32,7 +32,17 @@ editor: visual
 
 -  Otras formas de pago: MoneyGram.
  
+# Modalidades del Curso:
 
+-  Modalidad Asincrónica:
+Descripción: Tendrás acceso a nuestra plataforma educativa donde encontrarás tutoriales detallados para cada tema del curso. Además, tendrás acceso a todos los materiales y recursos necesarios para tu aprendizaje. Incluye tres asesorías individuales de una hora cada una con nuestros asesores.
+
+-  Modalidad en Vivo:
+Descripción: Durante el año, ofreceremos 3 o 4 cursos en vivo a través de la plataforma Zoom. Estos cursos serán impartidos en tiempo real y también tendrás acceso a la plataforma educativa con las grabaciones de cada clase y todos los recursos necesarios para tu aprendizaje.
+
+# Certificación:
+
+- Descripción: Al finalizar exitosamente el curso y completar las actividades asignadas, recibirás un certificado emitido por nuestra institución. Todas las actividades serán entregadas y revisadas por nuestros instructores para garantizar la calidad del aprendizaje y la validez del certificado.
 
 
 # Descripción del Curso:
