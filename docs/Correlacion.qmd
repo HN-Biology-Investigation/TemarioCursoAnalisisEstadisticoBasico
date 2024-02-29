@@ -1,0 +1,46 @@
+---
+title: "Correlacion"
+author: "David Murillo"
+format: html
+editor: visual
+---
+
+La prueba de correlación es una técnica estadística utilizada para evaluar la fuerza y dirección de la relación entre dos variables cuantitativas. La correlación cuantifica la relación lineal entre las variables y puede tomar valores entre -1 y 1. Un valor de correlación cercano a 1 indica una correlación positiva fuerte, mientras que un valor cercano a -1 indica una correlación negativa fuerte. Un valor de correlación cercano a 0 indica una correlación débil o inexistente entre las variables.
+
+> Ejemplo: Supongamos que queremos determinar si existe una relación significativa entre la edad de una persona y su ingreso mensual. Tenemos los siguientes datos observados:
+
+```{r, echo=FALSE}
+# Crear una matriz con los datos observados
+# Datos de edad y ingreso mensual
+edad <- c(25, 30, 35, 40, 45, 50, 55)
+ingreso <- c(3000, 2700, 4000, 4500, 5000, 5500, 6000)
+
+```
+
+Calcular la correlación entre edad e ingreso
+
+```{r, echo=FALSE}
+correlacion <- cor.test(edad, ingreso)
+```
+
+
+```{r}
+# Mostrar los resultados
+print(correlacion)
+
+```
+> Si el valor de correlación es significativamente diferente de cero, se concluye que hay una relación significativa entre la edad y el ingreso mensual. Si el valor de correlación es positivo, indica una correlación positiva entre las variables, es decir, a medida que la edad aumenta, también lo hace el ingreso mensual. Si el valor de correlación es negativo, indica una correlación negativa entre las variables, es decir, a medida que la edad aumenta, el ingreso mensual disminuye.
+
+Que tal si lo vemos visualmente
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(ggplot2)
+Data <- data.frame(Edad = edad, Peso = ingreso)
+
+ggplot(Data, aes(edad, ingreso))+
+  geom_smooth(method = "lm", fill = "lightblue")+
+  theme_classic()
+```
+
+
+![HN Biology Investigation Academy](HN Cursos publicidad/HN Biology Inv large.jpg)
