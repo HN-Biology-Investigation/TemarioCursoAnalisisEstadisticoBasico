@@ -64,11 +64,11 @@ En este curso, exploraremos los conceptos clave de la estadística de una manera
 [Pruebas de Correlación Pearson y Spearman](Correlacion.html)
 
 
-Metodología de Enseñanza:
+# Metodología de Enseñanza:
 
 Nuestro enfoque educativo se basa en la práctica activa y el aprendizaje interactivo. A lo largo del curso, trabajarás en ejercicios prácticos y proyectos que te permitirán aplicar directamente lo que aprendas. Además, tendrás acceso a recursos complementarios y a un equipo de instructores dedicados que te brindarán apoyo individualizado cuando sea requerido.
 
-Requisitos Previos:
+# Requisitos Previos:
 
 No se requiere experiencia previa en estadística ni en programación en R. Este curso está diseñado para principiantes, pero también es adecuado para aquellos con conocimientos básicos que deseen consolidar sus habilidades.
 
